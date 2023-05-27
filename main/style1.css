@@ -43,15 +43,28 @@ img#lady{
     top: 225px;
     width: 800px;
   }
+
   #textarea{
     position: absolute;
     right: 200px;
     text-align: right;
-    top: 400 px;
+    top: 425px;
     width: 800px;
   }
 
-  
+
+  input {
+    font-family: 'Rodger';
+    font-size: 30px;
+    color: white;
+    background-color: #0A50DD;
+    padding: 0;
+    margin: 0;
+    border: none;
+    outline: none;
+    text-align: right;
+    width: 800px;
+}
 
 /* style1.css */
 
