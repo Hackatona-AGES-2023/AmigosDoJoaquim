@@ -1,5 +1,6 @@
 
 // const textToSpeech = require('@google-cloud/text-to-speech');
+import { AIResponse} from './index.js'
 import textToSpeech from '@google-cloud/text-to-speech'
 // dot env
 
@@ -12,7 +13,7 @@ import util from 'util'
 const client = new textToSpeech.TextToSpeechClient();
 
 
-async function quickStart(phrase) {
+export async function quickStart(phrase) {
 
   // Construct the request
   const request = {
@@ -40,4 +41,4 @@ async function quickStart(phrase) {
   await writeFile('output.mp3', response.audioContent, 'binary');
   console.log('Audio content written to file: output.mp3');
 }
-quickStart("Léo é o cara da pucrs");
+
