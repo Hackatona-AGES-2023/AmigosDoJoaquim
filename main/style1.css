@@ -36,20 +36,23 @@ img#lady{
     left: 100px;
 
 }
-#chararea{
-  position: absolute;
-  left: 200px;
-  text-align: right;
-  top: 225px;
-  width: 800px;
-}
-#textarea{
-  position: absolute;
-  right: 200px;
-  text-align: right;
-  top: 425px;
-  width: 800px;
-}
+  #chararea{
+    position: absolute;
+    left: 200px;
+    text-align: right;
+    top: 225px;
+    width: 800px;
+  }
+  #textarea{
+    position: absolute;
+    right: 200px;
+    text-align: right;
+    top: 400 px;
+    width: 800px;
+  }
+
+  
+
 /* style1.css */
 
 #microfone {
